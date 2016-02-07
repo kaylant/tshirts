@@ -184,7 +184,35 @@ input[type="checkbox"]{
 	-webkit-transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
 	-moz-transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
 	transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
+	/* Added */
+	/*z-index: 1000;
+	visibility: hidden;
+	left: 50%;*/
 }
+
+/* Trial Error */
+
+/*.size.sizesSelect {
+	margin-left: -50px;
+}
+
+.sizesSelect:before {
+	border-color: transparent;
+    border-top-color: #2981ba;
+    border-width: 14px;
+    left: 50%;
+    margin-left: -14px;
+}
+
+.sizesSelect:after {
+	border-color: transparent;
+    border-top-color: #fff;
+    border-width: 10px;
+    left: 50%;
+    margin-left: -10px;
+}*/
+
+/* Trial end */
 
 .sizesSelect span {
 	margin: 4px auto;
