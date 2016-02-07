@@ -47,15 +47,23 @@
 	vertical-align: top;
 	font-size: x-large;
 	text-align: center;
-	padding-top: 5px;
+	padding-top: 3px;
 	width: 40px;
 	height: 40px;
 	background: #fff;
-	background: url(../images/update17.svg);
+	color: #2981ba;
 }
 
 .switchbox:hover {
 	background: #2981ba;
+	color: #fff;
+	-webkit-transition: 0.3s all ease;
+	-moz-transition: 0.3s all ease;
+	transition: 0.3s all ease;
+}
+
+.switchbox i {
+	font-size: xx-large;
 }
 
 /* Image of shirt */
@@ -100,9 +108,9 @@ input[type="checkbox"]:checked ~ .shirtImage {
 input[type="checkbox"]{
 	position: absolute;
 	right: 0;
-/*	-webkit-appearance: none;
+    -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none;*/
+    appearance: none;
 }
 
 /* Row of buttons */
@@ -129,14 +137,12 @@ input[type="checkbox"]{
 .arrows:hover {
 	background: #2981ba;
 	color: white;
+	-webkit-transition: 0.3s all ease;
+	-moz-transition: 0.3s all ease;
+	transition: 0.3s all ease;
 }
 
 .heart:hover {
-	background: #2981ba;
-	color: white;
-}
-
-.heart:active {
 	background: #2981ba;
 	color: red;
 	-webkit-transition: 0.3s all ease;
@@ -154,6 +160,9 @@ input[type="checkbox"]{
 .size:hover {
 	background: #2981ba;
 	color: white;
+	-webkit-transition: 0.3s all ease;
+	-moz-transition: 0.3s all ease;
+	transition: 0.3s all ease;
 }
 
 .size:hover .sizesSelect {
@@ -167,7 +176,6 @@ input[type="checkbox"]{
 	padding: 15px;
 	background: white;
 	border: 2px solid #2981ba;
-	text-align: center;
 	color: #2981ba;
 	cursor: pointer;
 	bottom: 100px;
@@ -235,6 +243,9 @@ input[type="checkbox"]{
 .swatch:hover {
 	background: #2981ba;
 	color: white;
+	-webkit-transition: 0.3s all ease;
+	-moz-transition: 0.3s all ease;
+	transition: 0.3s all ease;
 }
 
 .swatch:hover .swatchesSelect {
@@ -309,6 +320,9 @@ i.fa.fa-square.yellow-swatch:hover {
 .cart:hover {
 	background: #2981ba;
 	color: white;
+	-webkit-transition: 0.3s all ease;
+	-moz-transition: 0.3s all ease;
+	transition: 0.3s all ease;
 }
 
 /* Shirt Name & Price */
