@@ -180,14 +180,15 @@ input[type="checkbox"]{
 	cursor: pointer;
 	bottom: 100px;
 	opacity: 0;
-	margin: 0px -16%;
+	margin: auto;
 	-webkit-transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
 	-moz-transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
-	transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
-	/* Added */
+	transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;/* Added */
 	/*z-index: 1000;
 	visibility: hidden;
 	left: 50%;*/
+	right: 50%;
+	transform: translateX(50%);
 }
 
 /* Trial Error */
@@ -291,6 +292,9 @@ input[type="checkbox"]{
 	cursor: pointer;
 	background: #fff;
 	opacity: 0;
+	margin: auto;
+	right: 50%;
+	transform: translateX(50%);
 	-webkit-transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
 	-moz-transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
 	transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
