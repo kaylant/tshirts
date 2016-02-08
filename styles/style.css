@@ -131,15 +131,14 @@ input[type="checkbox"]{
 
 .arrows, .heart, .size, .swatch {
 	border-right: 2px solid #2981ba;
-
+	-webkit-transition: 0.3s all ease;
+	-moz-transition: 0.3s all ease;
+	transition: 0.3s all ease;
 }
 
 .arrows:hover {
 	background: #2981ba;
 	color: white;
-	-webkit-transition: 0.3s all ease;
-	-moz-transition: 0.3s all ease;
-	transition: 0.3s all ease;
 }
 
 .heart:hover {
@@ -155,19 +154,19 @@ input[type="checkbox"]{
 .size {
 	position: relative;
 	cursor: pointer;
-}
-
-.size:hover {
-	background: #2981ba;
-	color: white;
 	-webkit-transition: 0.3s all ease;
 	-moz-transition: 0.3s all ease;
 	transition: 0.3s all ease;
 }
 
-.size:hover .sizesSelect {
-	opacity: 1;
-	bottom: 70px;
+.size:hover {
+	background: #2981ba;
+	color: white;
+}
+
+.size:hover > .sizesSelect {
+	bottom: 100%;
+	opacity:1;
 }
 
 .sizesSelect {
@@ -178,42 +177,14 @@ input[type="checkbox"]{
 	border: 2px solid #2981ba;
 	color: #2981ba;
 	cursor: pointer;
-	bottom: 100px;
+	bottom: 125%;
 	opacity: 0;
-	margin: auto;
 	-webkit-transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
 	-moz-transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
 	transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;/* Added */
-	/*z-index: 1000;
-	visibility: hidden;
-	left: 50%;*/
 	right: 50%;
 	transform: translateX(50%);
 }
-
-/* Trial Error */
-
-/*.size.sizesSelect {
-	margin-left: -50px;
-}
-
-.sizesSelect:before {
-	border-color: transparent;
-    border-top-color: #2981ba;
-    border-width: 14px;
-    left: 50%;
-    margin-left: -14px;
-}
-
-.sizesSelect:after {
-	border-color: transparent;
-    border-top-color: #fff;
-    border-width: 10px;
-    left: 50%;
-    margin-left: -10px;
-}*/
-
-/* Trial end */
 
 .sizesSelect span {
 	margin: 4px auto;
@@ -277,9 +248,9 @@ input[type="checkbox"]{
 	transition: 0.3s all ease;
 }
 
-.swatch:hover .swatchesSelect {
-	opacity: 1;
-	bottom: 70px;
+.swatch:hover > .swatchesSelect {
+	bottom: 100%;
+	opacity:1;
 }
 
 .swatchesSelect {
@@ -287,12 +258,11 @@ input[type="checkbox"]{
 	width: 75px;
 	height: 75px;
 	padding: 8px 0;
-	bottom: 100px;
+	bottom: 125%;
 	border: 2px solid #2981ba;
 	cursor: pointer;
 	background: #fff;
 	opacity: 0;
-	margin: auto;
 	right: 50%;
 	transform: translateX(50%);
 	-webkit-transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
