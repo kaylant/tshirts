@@ -233,6 +233,21 @@ input[type="checkbox"]{
 	line-height: 30px;
 } 
 
+.arrow-down {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	right: 50%;
+	bottom: -4%;
+	transform: translateX(50%) rotate(45deg);
+	-webkit-transform: translateX(50%) rotate(45deg);
+	-moz-transform: translateX(50%) rotate(45deg);
+	border-bottom: 2px solid #2981ba;
+	border-right: 2px solid #2981ba;
+	border-top: 2px solid #fff;
+	border-left: 2px solid #fff;
+	background: #fff;
+}
 
 /* Swatches select */
 
@@ -319,6 +334,22 @@ i.fa.fa-square.yellow-swatch:hover {
 	font-size: xx-large;
 }
 
+.arrow-down-swatch {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	right: 50%;
+	bottom: -11%;
+	transform: translateX(50%) rotate(45deg);
+	-webkit-transform: translateX(50%) rotate(45deg);
+	-moz-transform: translateX(50%) rotate(45deg);
+	border-bottom: 2px solid #2981ba;
+	border-right: 2px solid #2981ba;
+	border-top: 2px solid #fff;
+	border-left: 2px solid #fff;
+	background: #fff;
+}
+
 .cart:hover {
 	background: #2981ba;
 	color: white;
@@ -348,10 +379,17 @@ i.fa.fa-square.yellow-swatch:hover {
 	.shirtContainer {
 		width: 75%;
 	}
+	#container {
+		margin: auto;
+		text-align: center;
+	}
 }
 
 @media (min-width: 992px) {
 	.shirtContainer {
 		width: 33.33%;
+	}
+	#container {
+		margin: auto;
 	}
 }
