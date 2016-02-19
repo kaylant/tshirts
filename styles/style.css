@@ -69,9 +69,9 @@
 /* Image of shirt */
 .shirtImage {
 	margin-top: 40px;
-	transition: 3s transform ease;
-	-webkit-transition: 3s transform ease;
-	-moz-transition: 3s transform ease;
+	transition: 0.5s transform ease;
+	-webkit-transition: 0.5s transform ease;
+	-moz-transition: 0.5s transform ease;
  	transform-style: preserve-3d;
  	-webkit-transform-style: preserve-3d;
  	-moz-transform-style: preserve-3d;
@@ -364,6 +364,7 @@ i.fa.fa-square.yellow-swatch:hover {
 	color: #2981ba;
 	display: inline-block;
 	font-size: 20px;
+	float: left;
 }
 
 .shirtPrice {
